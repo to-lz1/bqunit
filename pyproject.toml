@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "bqunit"
 version = "0.1.0"
-description = ""
-authors = ["to-lz1 <m.toriyama000@gmail.com>"]
+description = "Testing framework for BigQuery SQL"
+authors = ["to-lz1 <https://github.com/to-lz1>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 google-cloud-bigquery = "^1.24.0"
 
 [tool.poetry.dev-dependencies]
