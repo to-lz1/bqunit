@@ -1,8 +1,17 @@
 [tool.poetry]
 name = "bqunit"
-version = "0.1.0"
+version = "0.1.2"
 description = "Testing framework for BigQuery SQL"
-authors = ["to-lz1 <https://github.com/to-lz1>"]
+authors = ["to-lz1 <m.toriyama000@gmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/to-lz1/bqunit"
+keywords = ["BigQuery", "sql", "test"]
+license = "MIT License"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+  "Topic :: Software Development :: Testing"
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
